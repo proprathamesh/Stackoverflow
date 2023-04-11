@@ -1,0 +1,13 @@
+.sidebar{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    display: fixed;
+}
+
+.notice{
+    /* margin-left: 2vw;
+    margin-right: 2vw; */
+    min-height: 200px;
+    background-color: rgb(255, 81, 0, 0.3);
+    border-radius: 5px;
+}

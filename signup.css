@@ -1,0 +1,109 @@
+body{
+    background-image: url('./9468957_4196050.jpg');
+}
+.header{
+    width: 50%;
+}
+/*
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String []args)
+    {
+        bank[] obj = new bank[5];
+        byte choice = 6, i = 1, j = 0;
+        String acc_no = "a";
+        obj[0].initial();
+        Scanner scn = new Scanner(System.in);
+        while (choice != 5) {
+            System.out.println("\n1. Withdraw amount.");
+            System.out.println("2. Deposit amount.");
+            System.out.println("3. See balance.");
+            System.out.println("4. Add account.");
+            System.out.println("5. Exit.");
+            System.out.println("Enter your choice ");
+            choice = scn.nextByte();
+            switch (choice) {
+                case 1:
+                    System.out.println("Enter account number: ");
+                    acc_no = scn.nextLine();
+                    for(j=0 ; j<i ; j++){
+                        if(obj[j].acc_no == acc_no){
+                            obj[j].withdraw_amt();
+                            break;
+                        }
+                    }
+                    break;
+
+                case 2:
+                    System.out.println("Enter account number: ");
+                    acc_no = scn.nextLine();
+                    for(j=0 ; j<i ; j++){
+                        if(obj[j].acc_no == acc_no){
+                            obj[j].deposit_amt();
+                            break;
+                        }
+                    }
+                    break;
+
+                case 3:
+                    System.out.println("Enter account number: ");
+                    acc_no = scn.nextLine();
+                    for(j=0 ; j<i ; j++){
+                        if(obj[j].acc_no == acc_no){
+                            System.out.println("Your balance is "+obj[j].balance);
+                            break;
+                        }
+                    }
+                    break;
+                
+                case 4:
+                    obj[i].initial();
+                    i++;
+            
+                default:
+                    break;
+            }
+        }
+    }
+};
+
+class bank{
+    Scanner scn = new Scanner(System.in);
+    String acc_no, acc_type, name;
+    int balance;
+    bank(){
+        acc_no = "none";
+        acc_type = "open";
+        name = "unknown";
+        balance = 0;
+    }
+    public void initial(){
+        System.out.println("\nEnter Name: ");
+        name = scn.nextLine();
+        System.out.println("\nEnter account number: ");
+        acc_no = scn.nextLine();
+        System.out.println("\nEnter account type: ");
+        acc_type = scn.nextLine();
+        System.out.println("\nEnter account balance: ");
+        balance = scn.nextInt();
+    }
+    public void withdraw_amt(){
+        int withdraw;
+        System.out.println("\nEnter account to withdraw: ");
+        withdraw = scn.nextInt();
+        if (balance < withdraw) {
+            System.out.println("\nSorry insufficient balance");
+            return;
+        }
+        balance = balance - withdraw;
+    }
+    public void deposit_amt(){
+        int deposit;
+        System.out.println("\nEnter account to deposit: ");
+        deposit = scn.nextInt();
+        balance = balance + deposit;
+    }
+}
+
+*/
