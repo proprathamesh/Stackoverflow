@@ -75,7 +75,7 @@
         ?>
         <div class="container">
             <!-- <div class="image position-absolute top-50 start-50 translate-middle"></div> -->
-            <form class = "header" action = "/webbit/login.php" method = "post">
+            <form class = "header" action = "/webbit/index.php" method = "post">
                 <h2 class="text-center text-danger"><strong>Login</strong></h2>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label text-white fs-5">Email address</label>

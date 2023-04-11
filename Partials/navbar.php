@@ -28,7 +28,7 @@
                 <form class="d-flex" role="search">';
                     if (!$login) {
                         echo
-                        '<button class="btn btn-danger me-2" type="submit"><a class="nav-link active" href="/webbit/login.php">Login</a></button>
+                        '<button class="btn btn-danger me-2" type="submit"><a class="nav-link active" href="/webbit/index.php">Login</a></button>
                         <button class="btn btn-success me-2" type="submit"><a class="nav-link active" href="/webbit/signup.php">SignUp</a></button>';
                     }
                     else{
